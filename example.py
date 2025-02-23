@@ -13,7 +13,7 @@ from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoPro
 
 # 调用 visionzip_qwen2vl 函数进行设置，调整 retain_token_ratio
 # 函数无返回值，会对qwen2vl的部分forward函数进行修改
-# visionzip_qwen2vl(retain_token_ratio=0.125)
+visionzip_qwen2vl(retain_token_ratio=0.125)
 
 # 加载预训练模型并设置设备
 model = Qwen2VLForConditionalGeneration.from_pretrained(
