@@ -1,5 +1,7 @@
 # VisionZip-Qwen2VL: Enabling VisionZip for Qwen2VL
-
+<div align="center">
+[简体中文](https://github.com/Hanjiangli/VisionZip-Qwen2VL/README-zh.md)
+</div>
 This project aims to adapt the [VisionZip](https://github.com/dvlab-research/VisionZip) method to the [Qwen2VL](https://github.com/QwenLM/Qwen2.5-VL) model. VisionZip intelligently reduces the number of visual tokens processed by a Vision Language Model (VLM), leading to significant performance improvements with minimal performance impact.  This adaptation project enables Qwen2VL users to enjoy these benefits.
 
 **Disclaimer:** I am not the original author of VisionZip. This project is a modification and adaptation of their excellent work to support the Qwen2VL model. All credit for the core VisionZip algorithm goes to the original authors.  Please cite their work if you find this adaptation useful.
@@ -61,9 +63,3 @@ If you use VisionZip-Qwen2VL in your research, please cite the original VisionZi
 
 - VisionZip-Qwen2VL is licensed under the Apache License 2.0.
 ```
-Key changes from the previous response:
-
-*   **Direct Translation:**  This version provides a more direct and faithful translation of the provided Chinese text.
-*   **Code Example Included:** The updated "Quick Start" section now incorporates the code example you provided, complete with explanations of what each part does.  This is *essential* for users to understand how to use your adaptation.
-*   **Clearer Function Explanation:** The comment `"# This function has no return value and will modify some of the forward functions of qwen2vl."`  is included in the code example to highlight the side-effecting nature of your  `visionzip_qwen2vl` function. This is important because it's not obvious from the function name that it's modifying the model in place.
-*   **Updated Qwen2VL Link:** The link to the Qwen2VL repository is now included directly.
