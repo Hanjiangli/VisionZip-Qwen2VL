@@ -62,4 +62,3 @@ If you use VisionZip-Qwen2VL in your research, please cite the original VisionZi
 ## License
 
 - VisionZip-Qwen2VL is licensed under the Apache License 2.0.
-```
