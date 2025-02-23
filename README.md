@@ -1,7 +1,9 @@
 # VisionZip-Qwen2VL: Enabling VisionZip for Qwen2VL
+
 <div align="center">
 [简体中文](https://github.com/Hanjiangli/VisionZip-Qwen2VL/README-zh.md)
 </div>
+
 This project aims to adapt the [VisionZip](https://github.com/dvlab-research/VisionZip) method to the [Qwen2VL](https://github.com/QwenLM/Qwen2.5-VL) model. VisionZip intelligently reduces the number of visual tokens processed by a Vision Language Model (VLM), leading to significant performance improvements with minimal performance impact.  This adaptation project enables Qwen2VL users to enjoy these benefits.
 
 **Disclaimer:** I am not the original author of VisionZip. This project is a modification and adaptation of their excellent work to support the Qwen2VL model. All credit for the core VisionZip algorithm goes to the original authors.  Please cite their work if you find this adaptation useful.
